@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fc0b7127-e109-45e2-95a1-530cae6272ca}</ProjectGuid>
+    <RootNamespace>MusicApp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\Namespace_Application\MenuApp.cpp" />
+    <ClCompile Include="..\Namespace_Application\ProgramManager.cpp" />
+    <ClCompile Include="..\Namespace_Audiobook\Audiobook.cpp" />
+    <ClCompile Include="..\Namespace_Audiobook\AudiobookManager.cpp" />
+    <ClCompile Include="..\Namespace_Audiobook\AuthorManager.cpp" />
+    <ClCompile Include="..\Namespace_Audiobook\BookArtist.cpp" />
+    <ClCompile Include="..\Namespace_Audiobook\Chapter.cpp" />
+    <ClCompile Include="..\Namespace_Audiobook\ChapterManager.cpp" />
+    <ClCompile Include="..\Namespace_Metadata\Genre.cpp" />
+    <ClCompile Include="..\Namespace_Metadata\Language.cpp" />
+    <ClCompile Include="..\Namespace_Metadata\Role.cpp" />
+    <ClCompile Include="..\Namespace_Metadata\StatusCode.cpp" />
+    <ClCompile Include="..\Namespace_Metadata\StatusCodeManager.cpp" />
+    <ClCompile Include="..\Namespace_Music\Album.cpp" />
+    <ClCompile Include="..\Namespace_Music\AlbumManager.cpp" />
+    <ClCompile Include="..\Namespace_Music\ArtistManager.cpp" />
+    <ClCompile Include="..\Namespace_Music\MusicArtist.cpp" />
+    <ClCompile Include="..\Namespace_Music\Track.cpp" />
+    <ClCompile Include="..\Namespace_Music\TrackManager.cpp" />
+    <ClCompile Include="..\Namespace_Podcast\CreatorManager.cpp" />
+    <ClCompile Include="..\Namespace_Podcast\Episode.cpp" />
+    <ClCompile Include="..\Namespace_Podcast\EpisodeManager.cpp" />
+    <ClCompile Include="..\Namespace_Podcast\Show.cpp" />
+    <ClCompile Include="..\Namespace_Podcast\ShowArtist.cpp" />
+    <ClCompile Include="..\Namespace_Podcast\ShowManager.cpp" />
+    <ClCompile Include="..\Namespace_Testing\TesterBase.cpp" />
+    <ClCompile Include="..\Namespace_Testing\TesterManager.cpp" />
+    <ClCompile Include="..\Namespace_User\Playlist.cpp" />
+    <ClCompile Include="..\Namespace_User\PlaylistManager.cpp" />
+    <ClCompile Include="..\Namespace_User\User.cpp" />
+    <ClCompile Include="..\Namespace_User\UserManager.cpp" />
+    <ClCompile Include="..\Namespace_Utilities\CsvParser.cpp" />
+    <ClCompile Include="..\Namespace_Utilities\Helper.cpp" />
+    <ClCompile Include="..\Namespace_Utilities\Logger.cpp" />
+    <ClCompile Include="..\Namespace_Utilities\Messager.cpp" />
+    <ClCompile Include="..\Namespace_Utilities\Platform.cpp" />
+    <ClCompile Include="..\Namespace_Utilities\ScreenDrawer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Namespace_Application\MenuApp.h" />
+    <ClInclude Include="..\Namespace_Application\ProgramManager.h" />
+    <ClInclude Include="..\Namespace_Audiobook\Audiobook.h" />
+    <ClInclude Include="..\Namespace_Audiobook\AudiobookManager.h" />
+    <ClInclude Include="..\Namespace_Audiobook\AuthorManager.h" />
+    <ClInclude Include="..\Namespace_Audiobook\BookArtist.h" />
+    <ClInclude Include="..\Namespace_Audiobook\Chapter.h" />
+    <ClInclude Include="..\Namespace_Audiobook\ChapterManager.h" />
+    <ClInclude Include="..\Namespace_Metadata\Genre.h" />
+    <ClInclude Include="..\Namespace_Metadata\Language.h" />
+    <ClInclude Include="..\Namespace_Metadata\Role.h" />
+    <ClInclude Include="..\Namespace_Metadata\StatusCode.h" />
+    <ClInclude Include="..\Namespace_Metadata\StatusCodeManager.h" />
+    <ClInclude Include="..\Namespace_Music\Album.h" />
+    <ClInclude Include="..\Namespace_Music\AlbumManager.h" />
+    <ClInclude Include="..\Namespace_Music\ArtistManager.h" />
+    <ClInclude Include="..\Namespace_Music\MusicArtist.h" />
+    <ClInclude Include="..\Namespace_Music\Track.h" />
+    <ClInclude Include="..\Namespace_Music\TrackManager.h" />
+    <ClInclude Include="..\Namespace_Podcast\CreatorManager.h" />
+    <ClInclude Include="..\Namespace_Podcast\Episode.h" />
+    <ClInclude Include="..\Namespace_Podcast\EpisodeManager.h" />
+    <ClInclude Include="..\Namespace_Podcast\Show.h" />
+    <ClInclude Include="..\Namespace_Podcast\ShowArtist.h" />
+    <ClInclude Include="..\Namespace_Podcast\ShowManager.h" />
+    <ClInclude Include="..\Namespace_Testing\TesterBase.h" />
+    <ClInclude Include="..\Namespace_Testing\TesterManager.h" />
+    <ClInclude Include="..\Namespace_User\Playlist.h" />
+    <ClInclude Include="..\Namespace_User\PlaylistManager.h" />
+    <ClInclude Include="..\Namespace_User\PlaylistTester.h" />
+    <ClInclude Include="..\Namespace_User\User.h" />
+    <ClInclude Include="..\Namespace_User\UserManager.h" />
+    <ClInclude Include="..\Namespace_User\UserManagerTester.h" />
+    <ClInclude Include="..\Namespace_User\UserTester.h" />
+    <ClInclude Include="..\Namespace_Utilities\CsvParser.h" />
+    <ClInclude Include="..\Namespace_Utilities\Helper.h" />
+    <ClInclude Include="..\Namespace_Utilities\Logger.h" />
+    <ClInclude Include="..\Namespace_Utilities\Messager.h" />
+    <ClInclude Include="..\Namespace_Utilities\NotImplementedException.h" />
+    <ClInclude Include="..\Namespace_Utilities\Platform.h" />
+    <ClInclude Include="..\Namespace_Utilities\Preprocessor.h" />
+    <ClInclude Include="..\Namespace_Utilities\ScreenDrawer.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

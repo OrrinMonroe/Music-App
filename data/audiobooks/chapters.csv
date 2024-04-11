@@ -1,0 +1,15 @@
+chapter_id,title,length,audiobook_id,next_chapter_id,prev_chapter_id
+0,UNKNOWN,0,0,0,0
+1,The Psychopathology of Everyday Things,1593,1,2,0
+2,The Psychology of Everyday Actions,3600,1,0,1
+3,Krugs First Law of Usability,1200,6,4,0
+4,How we really use the Web,1234,6,5,3
+5,Billboard Design 101,1020,6,6,4
+6,Animal Veegetable or Mineral?,900,6,7,5
+7,Omit needless words,948,6,0,6
+8,Code is Law,286,4,9,0
+9,Four Puzzles from Cyberspace,1712,4,10,9
+10,Is-ism,1109,4,11,10
+11,Architectures of Control,1301,4,12,11
+12,Regulating Code,678,4,0,12
+13,How code? Do good?,1301,0,0,0

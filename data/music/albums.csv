@@ -1,0 +1,6 @@
+album_id,title,artist_ids,track_ids
+0,UNKNOWN,0,0
+1,Horrorscope,123,1&2&3
+2,Speak in Code,123,4&5
+3,From Under the Cork Tree,2,6&7
+4,Montero,3,8&9&10

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEST RESULT-UserTester test result</title>
+        <style type='text/css'>
+            body { font-family: sans-serif; font-size: 12pt; }
+            .info { font-size: 8pt; }
+            .warning { padding: 20px; background: #ffed24; font-size: 20px; text-align: center; }
+            .result-success { background: #24ff24; font-size: 20px; text-align: center; }
+            .result-failure { background: #ff7095; font-size: 20px; text-align: center; }
+            h2 { font-size: 14pt; font-weight: bold; }
+            h3 { font-size: 12pt; font-weight: bold; }
+            table { background: #ffffff; width: 100%; font-size: 10pt; }
+            table tr.pass { background: #ccffcc; }
+            table tr.fail { background: #ffcccc; }
+            table tr             { font-size: 12pt; border: solid 1px #000066; }
+            table tr th          { background: #fff; padding: 10px; border: solid 1px #000033; }
+            table tr td          { padding: 10px; border: solid 1px #000033; }
+            table tr td ul li,             table tr td ol li    { margin: 10px 0; }
+            table tr td ol       { list-style-type: upper-latin; }
+            table tr .test-set   { font-size: 10pt; }
+            table tr .test       { font-size: 10pt; }
+            table tr .prereq     {  }
+            table tr .result     { text-align: center; font-size: 10pt; font-weight: bold; }
+            table tr .expected   { font-family: monospace; font-size: 10pt; }
+            table tr .actual     { font-family: monospace; font-size: 10pt; }
+            table tr .comments   { font-size: 10pt; }
+            table .prereqs { font-size: 8pt; }
+            table .prereqs ul li { margin: 0; }
+            table .prereqs ul { margin: 0; }
+            table tr.summary { background: #000000; color: #ffffff; }
+            table tr.descriptions { font-size: 8pt; text-align: center; }
+            table .spacer { height: 20px; }
+        </style>
+    </head>
+    <body>
+    <div class='info'>cuTEST v 2023-04</div>
+    <div class='warning'>Warning: Make sure to check if all tests finish (there will be a message at the end of the file) - <br>
+    It is possible for your program to crash early, but still show that tests have passed because it hasn't gone through everything.</div>
+<div id='test-list'><h2>Test list:</h2>
+
+<a href='#Test_SetId'>Test_SetId</a> | <a href='#Test_SetName'>Test_SetName</a> | <a href='#Test_AddPlaylistId'>Test_AddPlaylistId</a> | <a href='#Test_GetId'>Test_GetId</a> | <a href='#Test_GetName'>Test_GetName</a> | <a href='#Test_GetPlaylistIds'>Test_GetPlaylistIds</a></div>
+
+<h2>Results:</h2>
+<a name='Test_SetId' href='#Test_SetId'><h3>Test_SetId</h3></a>
+    <table>
+        <tr style='vertical-align:top; position:sticky; top: 0;'>
+            <th class='col_set'> Test set </th>
+            <th class='col_test'> Test </th>
+            <th class='col_result'> Pass/fail </th>
+            <th class='col_expected'> Expected <br> output </th>
+            <th class='col_actual'> Actual <br> output </th>
+            <th class='col_comments'> Comments </th>
+        </tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_SetId <br></td>
+<td class='test'>          Use SetId, check that value is set.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.m_userId = 123</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.m_userId = 123</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.SetId( 123 );</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_SetId <br></td>
+<td class='test'>          Use SetId, check that value is set.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.m_userId = 1337</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.m_userId = 1337</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.SetId( 1337 );</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='summary'>
+<td colspan='7' class='summary'>
+<strong>SUMMARY FOR Test_SetId:</strong>
+2 out of 2 tests passed
+</td>
+</tr>
+<tr class='spacer'></tr>
+    </table>
+<a name='Test_SetName' href='#Test_SetName'><h3>Test_SetName</h3></a>
+    <table>
+        <tr style='vertical-align:top; position:sticky; top: 0;'>
+            <th class='col_set'> Test set </th>
+            <th class='col_test'> Test </th>
+            <th class='col_result'> Pass/fail </th>
+            <th class='col_expected'> Expected <br> output </th>
+            <th class='col_actual'> Actual <br> output </th>
+            <th class='col_comments'> Comments </th>
+        </tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_SetName <br></td>
+<td class='test'>          Use SetName, check that value is set.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.m_name = Rachel</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.m_name = Rachel</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.SetName( "Rachel" );</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_SetName <br></td>
+<td class='test'>          Use SetName, check that value is set.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.m_name = Rai</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.m_name = Rai</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.SetName( "Rai" );</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='summary'>
+<td colspan='7' class='summary'>
+<strong>SUMMARY FOR Test_SetName:</strong>
+2 out of 2 tests passed
+</td>
+</tr>
+<tr class='spacer'></tr>
+    </table>
+<a name='Test_AddPlaylistId' href='#Test_AddPlaylistId'><h3>Test_AddPlaylistId</h3></a>
+    <table>
+        <tr style='vertical-align:top; position:sticky; top: 0;'>
+            <th class='col_set'> Test set </th>
+            <th class='col_test'> Test </th>
+            <th class='col_result'> Pass/fail </th>
+            <th class='col_expected'> Expected <br> output </th>
+            <th class='col_actual'> Actual <br> output </th>
+            <th class='col_comments'> Comments </th>
+        </tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_AddPlaylistId <br></td>
+<td class='test'>          Use AddPlaylistId, make sure it was added to the User       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>ID found in m_playlistIds = 1</li> </ol> </td>
+<td class='actual'>   <ol> <li>ID found in m_playlistIds = 1</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.AddPlaylistId( 123 );</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_AddPlaylistId <br></td>
+<td class='test'>          Use AddPlaylistId twice, make sure everyting was added to the User       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>1337 found in m_playlistIds = 1</li><li>777 found in m_playlistIds = 1</li> </ol> </td>
+<td class='actual'>   <ol> <li>1337 found in m_playlistIds = 1</li><li>777 found in m_playlistIds = 1</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.AddPlaylistId( 1337 );</li><li>testUser.AddPlaylistId( 777 );</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='summary'>
+<td colspan='7' class='summary'>
+<strong>SUMMARY FOR Test_AddPlaylistId:</strong>
+2 out of 2 tests passed
+</td>
+</tr>
+<tr class='spacer'></tr>
+    </table>
+<a name='Test_GetId' href='#Test_GetId'><h3>Test_GetId</h3></a>
+    <table>
+        <tr style='vertical-align:top; position:sticky; top: 0;'>
+            <th class='col_set'> Test set </th>
+            <th class='col_test'> Test </th>
+            <th class='col_result'> Pass/fail </th>
+            <th class='col_expected'> Expected <br> output </th>
+            <th class='col_actual'> Actual <br> output </th>
+            <th class='col_comments'> Comments </th>
+        </tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_GetId <br></td>
+<td class='test'>          Set the m_userId, then check GetId.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.GetId() = 321</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.GetId() = 321</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.m_userId = 321;</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_GetId <br></td>
+<td class='test'>          Set the m_userId, then check GetId.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.GetId() = 654</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.GetId() = 654</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.m_userId = 654;</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='summary'>
+<td colspan='7' class='summary'>
+<strong>SUMMARY FOR Test_GetId:</strong>
+2 out of 2 tests passed
+</td>
+</tr>
+<tr class='spacer'></tr>
+    </table>
+<a name='Test_GetName' href='#Test_GetName'><h3>Test_GetName</h3></a>
+    <table>
+        <tr style='vertical-align:top; position:sticky; top: 0;'>
+            <th class='col_set'> Test set </th>
+            <th class='col_test'> Test </th>
+            <th class='col_result'> Pass/fail </th>
+            <th class='col_expected'> Expected <br> output </th>
+            <th class='col_actual'> Actual <br> output </th>
+            <th class='col_comments'> Comments </th>
+        </tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_GetName <br></td>
+<td class='test'>          Set the m_name, then check GetName.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.GetName() = Karlach</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.GetName() = Karlach</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.m_name = "Karlach";</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_GetName <br></td>
+<td class='test'>          Set the m_name, then check GetName.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.GetName() = Wyll</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.GetName() = Wyll</li> </ol> </td>
+<td class='comments'> <ul> <li>testUser.m_name = "Wyll";</li> </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='summary'>
+<td colspan='7' class='summary'>
+<strong>SUMMARY FOR Test_GetName:</strong>
+2 out of 2 tests passed
+</td>
+</tr>
+<tr class='spacer'></tr>
+    </table>
+<a name='Test_GetPlaylistIds' href='#Test_GetPlaylistIds'><h3>Test_GetPlaylistIds</h3></a>
+    <table>
+        <tr style='vertical-align:top; position:sticky; top: 0;'>
+            <th class='col_set'> Test set </th>
+            <th class='col_test'> Test </th>
+            <th class='col_result'> Pass/fail </th>
+            <th class='col_expected'> Expected <br> output </th>
+            <th class='col_actual'> Actual <br> output </th>
+            <th class='col_comments'> Comments </th>
+        </tr>
+<tr style='vertical-align:top;' class='pass'>
+<td class='test-set'>      Test_GetPlaylistIds <br></td>
+<td class='test'>          Set PlaylistIDs directly, check that the list is retrieved.       </td>
+<td class='result'>        passed       </td>
+<td class='expected'> <ol> <li>testUser.GetPlaylistIds() returns all = 1</li> </ol> </td>
+<td class='actual'>   <ol> <li>testUser.GetPlaylistIds() returns all = 1</li> </ol> </td>
+<td class='comments'> <ul>  </ul> </td>
+</tr>
+<tr style='vertical-align:top;' class='summary'>
+<td colspan='7' class='summary'>
+<strong>SUMMARY FOR Test_GetPlaylistIds:</strong>
+1 out of 1 tests passed
+</td>
+</tr>
+<tr class='spacer'></tr>
+    </table>
+    </table>
+    <div class='result-success'>6 testsets ran; 6 testsets passed</div>
+    </body>
+</html>

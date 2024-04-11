@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Namespace_Application">
+      <UniqueIdentifier>{e3fa8307-a605-4409-99bd-01f8ee05ca9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace_Audiobook">
+      <UniqueIdentifier>{8e328468-18ca-4bcb-9602-6e8bb9047e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace_Metadata">
+      <UniqueIdentifier>{ba9cde90-9daa-441d-b5b0-dbfcdff86ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace_Music">
+      <UniqueIdentifier>{c5c8fc27-b60d-47ce-98b9-053437c514e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace_Podcast">
+      <UniqueIdentifier>{d1b5d07f-6856-45c1-b64e-fe253cc351e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace_User">
+      <UniqueIdentifier>{da4aa466-648d-4618-ac5f-6d20113d9901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace_Testing">
+      <UniqueIdentifier>{04375d53-6644-4d97-b77c-829ce98562b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace_Utilities">
+      <UniqueIdentifier>{69b3ebdb-5c00-4ea9-a59c-635cb6c5626b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\Namespace_Application\MenuApp.cpp">
+      <Filter>Namespace_Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Application\ProgramManager.cpp">
+      <Filter>Namespace_Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Audiobook\Audiobook.cpp">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Audiobook\BookArtist.cpp">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Audiobook\Chapter.cpp">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Metadata\Genre.cpp">
+      <Filter>Namespace_Metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Metadata\Language.cpp">
+      <Filter>Namespace_Metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Metadata\Role.cpp">
+      <Filter>Namespace_Metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Metadata\StatusCode.cpp">
+      <Filter>Namespace_Metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Metadata\StatusCodeManager.cpp">
+      <Filter>Namespace_Metadata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Music\Album.cpp">
+      <Filter>Namespace_Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Music\MusicArtist.cpp">
+      <Filter>Namespace_Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Music\Track.cpp">
+      <Filter>Namespace_Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Podcast\Episode.cpp">
+      <Filter>Namespace_Podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Podcast\Show.cpp">
+      <Filter>Namespace_Podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Podcast\ShowArtist.cpp">
+      <Filter>Namespace_Podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Testing\TesterBase.cpp">
+      <Filter>Namespace_Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Testing\TesterManager.cpp">
+      <Filter>Namespace_Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_User\Playlist.cpp">
+      <Filter>Namespace_User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_User\User.cpp">
+      <Filter>Namespace_User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_User\UserManager.cpp">
+      <Filter>Namespace_User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Utilities\CsvParser.cpp">
+      <Filter>Namespace_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Utilities\Helper.cpp">
+      <Filter>Namespace_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Utilities\Logger.cpp">
+      <Filter>Namespace_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Utilities\Messager.cpp">
+      <Filter>Namespace_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Utilities\Platform.cpp">
+      <Filter>Namespace_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Utilities\ScreenDrawer.cpp">
+      <Filter>Namespace_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Audiobook\AudiobookManager.cpp">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Audiobook\AuthorManager.cpp">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Audiobook\ChapterManager.cpp">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Music\AlbumManager.cpp">
+      <Filter>Namespace_Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Music\ArtistManager.cpp">
+      <Filter>Namespace_Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Music\TrackManager.cpp">
+      <Filter>Namespace_Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Podcast\CreatorManager.cpp">
+      <Filter>Namespace_Podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Podcast\EpisodeManager.cpp">
+      <Filter>Namespace_Podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_Podcast\ShowManager.cpp">
+      <Filter>Namespace_Podcast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Namespace_User\PlaylistManager.cpp">
+      <Filter>Namespace_User</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Namespace_Application\MenuApp.h">
+      <Filter>Namespace_Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Application\ProgramManager.h">
+      <Filter>Namespace_Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Audiobook\Audiobook.h">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Audiobook\BookArtist.h">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Audiobook\Chapter.h">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Metadata\Genre.h">
+      <Filter>Namespace_Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Metadata\Language.h">
+      <Filter>Namespace_Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Metadata\Role.h">
+      <Filter>Namespace_Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Metadata\StatusCode.h">
+      <Filter>Namespace_Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Metadata\StatusCodeManager.h">
+      <Filter>Namespace_Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Music\Album.h">
+      <Filter>Namespace_Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Music\MusicArtist.h">
+      <Filter>Namespace_Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Music\Track.h">
+      <Filter>Namespace_Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Podcast\Episode.h">
+      <Filter>Namespace_Podcast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Podcast\Show.h">
+      <Filter>Namespace_Podcast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Podcast\ShowArtist.h">
+      <Filter>Namespace_Podcast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Testing\TesterBase.h">
+      <Filter>Namespace_Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Testing\TesterManager.h">
+      <Filter>Namespace_Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_User\Playlist.h">
+      <Filter>Namespace_User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_User\PlaylistTester.h">
+      <Filter>Namespace_User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_User\User.h">
+      <Filter>Namespace_User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_User\UserManager.h">
+      <Filter>Namespace_User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_User\UserManagerTester.h">
+      <Filter>Namespace_User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_User\UserTester.h">
+      <Filter>Namespace_User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\CsvParser.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\Helper.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\Logger.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\Messager.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\NotImplementedException.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\Platform.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\Preprocessor.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Utilities\ScreenDrawer.h">
+      <Filter>Namespace_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Audiobook\AudiobookManager.h">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Audiobook\AuthorManager.h">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Audiobook\ChapterManager.h">
+      <Filter>Namespace_Audiobook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Music\AlbumManager.h">
+      <Filter>Namespace_Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Music\ArtistManager.h">
+      <Filter>Namespace_Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Music\TrackManager.h">
+      <Filter>Namespace_Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Podcast\CreatorManager.h">
+      <Filter>Namespace_Podcast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Podcast\EpisodeManager.h">
+      <Filter>Namespace_Podcast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_Podcast\ShowManager.h">
+      <Filter>Namespace_Podcast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Namespace_User\PlaylistManager.h">
+      <Filter>Namespace_User</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mangoBandroidProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="MusicApp_debug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="MusicApp_release" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++17" />
+		</Compiler>
+		<Unit filename="../Namespace_Application/MenuApp.cpp" />
+		<Unit filename="../Namespace_Application/MenuApp.h" />
+		<Unit filename="../Namespace_Application/ProgramManager.cpp" />
+		<Unit filename="../Namespace_Application/ProgramManager.h" />
+		<Unit filename="../Namespace_Audiobook/Audiobook.cpp" />
+		<Unit filename="../Namespace_Audiobook/Audiobook.h" />
+		<Unit filename="../Namespace_Audiobook/AudiobookManager.cpp" />
+		<Unit filename="../Namespace_Audiobook/AudiobookManager.h" />
+		<Unit filename="../Namespace_Audiobook/AuthorManager.cpp" />
+		<Unit filename="../Namespace_Audiobook/AuthorManager.h" />
+		<Unit filename="../Namespace_Audiobook/BookArtist.cpp" />
+		<Unit filename="../Namespace_Audiobook/BookArtist.h" />
+		<Unit filename="../Namespace_Audiobook/Chapter.cpp" />
+		<Unit filename="../Namespace_Audiobook/Chapter.h" />
+		<Unit filename="../Namespace_Audiobook/ChapterManager.cpp" />
+		<Unit filename="../Namespace_Audiobook/ChapterManager.h" />
+		<Unit filename="../Namespace_Metadata/Genre.cpp" />
+		<Unit filename="../Namespace_Metadata/Genre.h" />
+		<Unit filename="../Namespace_Metadata/Language.cpp" />
+		<Unit filename="../Namespace_Metadata/Language.h" />
+		<Unit filename="../Namespace_Metadata/Role.cpp" />
+		<Unit filename="../Namespace_Metadata/Role.h" />
+		<Unit filename="../Namespace_Metadata/StatusCode.cpp" />
+		<Unit filename="../Namespace_Metadata/StatusCode.h" />
+		<Unit filename="../Namespace_Metadata/StatusCodeManager.cpp" />
+		<Unit filename="../Namespace_Metadata/StatusCodeManager.h" />
+		<Unit filename="../Namespace_Music/Album.cpp" />
+		<Unit filename="../Namespace_Music/Album.h" />
+		<Unit filename="../Namespace_Music/AlbumManager.cpp" />
+		<Unit filename="../Namespace_Music/AlbumManager.h" />
+		<Unit filename="../Namespace_Music/ArtistManager.cpp" />
+		<Unit filename="../Namespace_Music/ArtistManager.h" />
+		<Unit filename="../Namespace_Music/MusicArtist.cpp" />
+		<Unit filename="../Namespace_Music/MusicArtist.h" />
+		<Unit filename="../Namespace_Music/Track.cpp" />
+		<Unit filename="../Namespace_Music/Track.h" />
+		<Unit filename="../Namespace_Music/TrackManager.cpp" />
+		<Unit filename="../Namespace_Music/TrackManager.h" />
+		<Unit filename="../Namespace_Podcast/CreatorManager.cpp" />
+		<Unit filename="../Namespace_Podcast/CreatorManager.h" />
+		<Unit filename="../Namespace_Podcast/Episode.cpp" />
+		<Unit filename="../Namespace_Podcast/Episode.h" />
+		<Unit filename="../Namespace_Podcast/EpisodeManager.cpp" />
+		<Unit filename="../Namespace_Podcast/EpisodeManager.h" />
+		<Unit filename="../Namespace_Podcast/Show.cpp" />
+		<Unit filename="../Namespace_Podcast/Show.h" />
+		<Unit filename="../Namespace_Podcast/ShowArtist.cpp" />
+		<Unit filename="../Namespace_Podcast/ShowArtist.h" />
+		<Unit filename="../Namespace_Podcast/ShowManager.cpp" />
+		<Unit filename="../Namespace_Podcast/ShowManager.h" />
+		<Unit filename="../Namespace_Testing/TesterBase.cpp" />
+		<Unit filename="../Namespace_Testing/TesterBase.h" />
+		<Unit filename="../Namespace_Testing/TesterManager.cpp" />
+		<Unit filename="../Namespace_Testing/TesterManager.h" />
+		<Unit filename="../Namespace_User/Playlist.cpp" />
+		<Unit filename="../Namespace_User/Playlist.h" />
+		<Unit filename="../Namespace_User/PlaylistManager.cpp" />
+		<Unit filename="../Namespace_User/PlaylistManager.h" />
+		<Unit filename="../Namespace_User/PlaylistTester.h" />
+		<Unit filename="../Namespace_User/User.cpp" />
+		<Unit filename="../Namespace_User/User.h" />
+		<Unit filename="../Namespace_User/UserManager.cpp" />
+		<Unit filename="../Namespace_User/UserManager.h" />
+		<Unit filename="../Namespace_User/UserManagerTester.h" />
+		<Unit filename="../Namespace_User/UserTester.h" />
+		<Unit filename="../Namespace_Utilities/CsvParser.cpp" />
+		<Unit filename="../Namespace_Utilities/CsvParser.h" />
+		<Unit filename="../Namespace_Utilities/Helper.cpp" />
+		<Unit filename="../Namespace_Utilities/Helper.h" />
+		<Unit filename="../Namespace_Utilities/Logger.cpp" />
+		<Unit filename="../Namespace_Utilities/Logger.h" />
+		<Unit filename="../Namespace_Utilities/Messager.cpp" />
+		<Unit filename="../Namespace_Utilities/Messager.h" />
+		<Unit filename="../Namespace_Utilities/NotImplementedException.h" />
+		<Unit filename="../Namespace_Utilities/Platform.cpp" />
+		<Unit filename="../Namespace_Utilities/Platform.h" />
+		<Unit filename="../Namespace_Utilities/Preprocessor.h" />
+		<Unit filename="../Namespace_Utilities/ScreenDrawer.cpp" />
+		<Unit filename="../Namespace_Utilities/ScreenDrawer.h" />
+		<Unit filename="../main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
